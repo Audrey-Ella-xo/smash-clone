@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background: gray;
+  height: auto;
+  margin-bottom: 5px;
+  padding: 20px 10px;
+  color: white;
+}
+
+.logo {
+  width: 200px;
+  height: 60px;
+  background-color: lightgray;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header p {
+  margin: 5px;
+}
+
+.coming-up > p {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.guides p,
+h3 {
+  text-decoration: none;
+}
+
+.nav-element p:first-child {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.nav-element p:nth-child(2) {
+  font-size: 14px;
+  font-style: italic;
+}
+
+header button {
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 4px;
+  padding: 5px 10px;
+  color: white;
+}
+
+.main-article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: minmax(200px, auto);
+}
+
+.each-person div {
+  text-align: left;
+  padding: 100px 50px;
+}
+
+.main-article div:nth-child(1) {
+  background-color: grey;
+}
+
+.main-article div:nth-child(2) {
+  background-color: lightgray;
+}
+
+.main-article div:nth-child(3) {
+  background-color: rgb(141, 137, 137);
+}
+
+.main-article div:nth-child(4) {
+  background-color: darkgray;
+}
+
+.art1 {
+  text-align: left;
+  padding: 100px 50px;
+  color: white;
+}
+
+.art1 p:first-child {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.art1 p:last-child {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(200px, auto);
+}
+
+.latest {
+  text-align: left;
+  padding: 50px 50px;
+  color: grey;
+  background-color: white;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.latest p:not(:last-child) {
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.small-banner {
+  padding: 40px 0;
+  background-color: grey;
+  margin: 30px;
+  height: 150px;
+  border-radius: 20px;
+  color: white;
+  font-weight: 400;
+}
+
+.large-banner {
+  grid-column: 2/4;
+  text-align: center;
+  background-color: grey;
+  color: white;
+  border-radius: 20px;
+  padding: 40px 0;
+}
+
+.large-banner .circle-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: lightgray;
+  margin: 0 auto;
+}
+
+.large-banner button {
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 4px;
+  padding: 5px 10px;
+  color: grey;
+  font-size: 28px;
+  font-weight: 700px;
+}
+
+.coming-up {
+  margin-top: 5px;
+  height: 500px;
+  text-align: center;
+  background-color: grey;
+  color: white;
+  padding: 40px 0;
+}
+
+.coming-up button,
+.featured button {
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 4px;
+  padding: 5px 10px;
+  color: grey;
+  font-size: 28px;
+  font-weight: 700px;
+  margin: 20px 0;
+}
+
+.coming-up .circle-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: lightgray;
+  margin: 0 auto;
+}
+
+.coming-up > h2 {
+  text-decoration: underline;
+}
+
+.person-week {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background: white;
+}
+
+.person-week div:last-child {
+  text-align: left;
+  width: 70%;
+}
+
+.person-week .square-img {
+  width: 200px;
+  height: 200px;
+  margin: 20px 10px 20px 20px;
+  background-color: lightgray;
+}
+
+.each-person {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 1px;
+}
+
+.each-person div p:first-child {
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: underline;
+  color: gray;
+}
+
+.each-person div h3 {
+  text-decoration: none;
+}
+
+.each-person div p:last-child {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 60%;
+  color: gray;
+}
+
+.featured {
+  margin-top: 5px;
+  background-color: darkgrey;
+  text-align: left;
+  padding: 20px;
+}
+
+.featured h2 {
+  text-decoration: underline;
+}
+
+footer nav li {
+  list-style: none;
+  text-decoration: underline;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.topics > li {
+  padding-right: 40px;
+}
+
+.guides > ul li {
+  font-size: 18px;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+footer {
+  padding: 25px 50px;
+  background-color: rgb(121, 118, 118);
+  color: white;
+}
+
+footer > .topics,
+footer nav > ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 22px;
+}
