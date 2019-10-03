@@ -258,8 +258,27 @@ h2 {
     text-decoration: underline;
 }
 footer {
-    margin-top:5px;
+    padding:25px 50px;
     width:100vw;
-    height:600px;
     background-color: rgb(121, 118, 118);
+    color: white;
+}
+
+footer > .topics,
+footer nav>ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 22px;
+}
+
+.topics > li {
+    padding-right: 40px;
+}
+
+footer nav li {
+    list-style: none;
+    text-decoration: underline;
+    margin-right: 20px;
+    font-size: 14px;
 }
